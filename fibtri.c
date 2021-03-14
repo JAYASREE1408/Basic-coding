@@ -20,6 +20,6 @@ int main(){
 			t2=t3;
 		}
 		printf("\n");
-	}
+	} 
 
 }
