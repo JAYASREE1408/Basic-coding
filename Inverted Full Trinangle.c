@@ -8,7 +8,7 @@ Enter the number of elements: 7
      ***
       *
 */
-
+ 
 #include<stdio.h>
 int main(){
 	int n,i,j,k;
