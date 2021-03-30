@@ -1,7 +1,7 @@
 // Given two numbers n,m find a number closest to n and divisible by m Note : n should not be the prime number
 #include<stdio.h>
 int main()
-{
+{  
   int n,m,count=0,i;
   printf("enter n and m");
   scanf("%d %d",&n,&m);
