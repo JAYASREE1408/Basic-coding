@@ -1,7 +1,7 @@
 //First and last occurance
 #include<stdio.h>
 void main()
-{
+{ 
     int a[20];
     int n,i,first,last,m;
     printf("Enter the no of elements");
