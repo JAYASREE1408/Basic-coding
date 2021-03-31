@@ -49,3 +49,15 @@ void main()
         printf("\n");
     }
 }
+
+or
+
+for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {
+            temp[i][j]=a[r-1-j][i];
+        }
+    }
+
+alone is enough!
