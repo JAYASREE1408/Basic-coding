@@ -8,6 +8,42 @@ int main()
  printf("enter a string:\n");
  scanf("%[^\n]%*c",str);
  for(n=0;str[n]!='\0';n++);
+ for(i=0;i<n;i++)
+ {
+  flag=0;
+     for(j=0;j<n;j++)
+      {
+    
+    if(i!=j){
+       if(str[i]==str[j])
+       {
+          flag++;
+       }
+      }
+  }
+  if(flag==0)
+  {
+     printf("the first non-repeated character is %c\n",str[i]);
+     exit(1);
+ }
+ }
+ printf("There is no non-repeated character\n");
+ return 0;
+}
+
+or
+
+
+//first non-repeated character in string
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+ char str[100];
+ int i,j,flag=0,n,k;
+ printf("enter a string:\n");
+ scanf("%[^\n]%*c",str);
+ for(n=0;str[n]!='\0';n++);
  for(i=0;str[i]!='\0';i++)
  {
      flag=0;
