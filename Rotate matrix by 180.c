@@ -3,10 +3,10 @@ Enter the matrix:
 1 2 3                                                                                                                         
 4 5 6                                                                                                                         
 7 8 9                                                                                                                         
-Enter matrix after 90 degree rotation is:                                                                                     
-7 4 1                                                                                                                         
-8 5 2 
-9 6 3 
+Enter matrix after 180 degree rotation is:                                                                                     
+9 8 7                                                                                                                         
+6 5 4                                                                                                                         
+3 2 1
 */
 #include<stdio.h>
 void main()
