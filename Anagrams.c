@@ -6,8 +6,19 @@ int main(){
 	gets(s2);
 	int i=0;
 	while(s1[i]!='\0'){
-		a[s1[i]-'a']++;
-		b[s2[i]-'a']++;
+		if(s1[i]>='a' && s1[i]<='z'){
+			a[s1[i]-'a']++;
+		}
+		if(s2[i]>='a' && s2[i]<='z'){
+			b[s2[i]-'a']++;
+		}
+		if(s1[i]>='A' && s1[i]<='Z'){
+			a[s1[i]-'A']++;
+		}
+		if(s2[i]>='A' && s2[i]<='Z'){
+			b[s2[i]-'A']++;
+		}
+		
 		i++;
 	}
 	int count=0;
