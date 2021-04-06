@@ -15,7 +15,7 @@
             {
                 printf("\n Descending order : %d %d %d",a,c,b);
                 printf("\n Ascending order : %d %d %d",b,c,a);
-            }
+            } 
         }
         else if((b>=a)&&(b>=c))
         {
