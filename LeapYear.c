@@ -6,5 +6,4 @@ int main(){
 	if(n%4==0 && (n%400==0 || n%100!=0)){
 		printf("The given year %d is a leap year!\n",n);
 	}
-
 }
