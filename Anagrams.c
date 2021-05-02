@@ -4,7 +4,7 @@ int main(){
 	int a[26]={0},b[26]={0};
 	gets(s1);
 	gets(s2);
-	int i=0;
+	int i=0; 
 	while(s1[i]!='\0'){
 		if(s1[i]>='a' && s1[i]<='z'){
 			a[s1[i]-'a']++;
