@@ -33,3 +33,5 @@ int main(){
 	    printf("%d ",op[i]);
 	}
 }
+
+
