@@ -8,6 +8,7 @@ Enter matrix after 90 degree rotation is:
 8 5 2 
 9 6 3 
 */
+
 #include<stdio.h>
 void main()
 {
