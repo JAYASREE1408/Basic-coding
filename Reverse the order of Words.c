@@ -1,23 +1,30 @@
-#include <stdio.h>
-#include <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main()
+//{
+//    char a[50];
+//    int i;
+//    printf("Enter the string:");
+//    gets(a);
+//    for(i=strlen(a)-1;i>=0;i--)
+//    {
+//        if(a[i]==' ')
+//        {
+//            a[i]='\0';
+//            printf("%s ",&(a[i])+1);
+//        }
+//    }
+//    printf("%s",a);
+//}
 
-int main()
-{
-    char a[50];
-    int i;
-    printf("Enter the string:");
-    gets(a);
-    for(i=strlen(a)-1;i>=0;i--)
-    {
-        if(a[i]==' ')
-        {
-            a[i]='\0';
-            printf("%s ",&(a[i])+1);
-        }
-    }
-    printf("%s",a);
-}
 
+
+//Enter the string:
+//jayasree is my name
+//The original string is: jayasree is my name
+//The Reversed string is: eman ym si eersayaj
+//The reverse string is : name my is jayasree
 
 
 #include <stdio.h>
