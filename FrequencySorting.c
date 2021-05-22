@@ -73,7 +73,7 @@ int main(){
 
 // #include<stdio.h>
 // int main()
-// {
+// { 
 // 	int i,j,val,n,max,k,max_ind;
 // 	printf("Enter the total number of elements:");
 // 	scanf("%d",&n);
