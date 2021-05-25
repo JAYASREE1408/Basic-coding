@@ -33,7 +33,7 @@
         else if((c>=a)&&(c>=b))
         {
             if(a>=b)
-            {
+            { 
                 printf("\n Descending order : %d %d %d",c,a,b);
                 printf("\n Ascending order : %d %d %d",b,a,c);
             }
