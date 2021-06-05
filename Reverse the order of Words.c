@@ -26,7 +26,6 @@
 //The Reversed string is: eman ym si eersayaj
 //The reverse string is : name my is jayasree
 
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
