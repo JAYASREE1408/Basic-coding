@@ -1,6 +1,7 @@
 ////Check whether the num is pow of 3
 //Enter the number:81
 //True
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -18,3 +19,4 @@ int main()
     ispowerofThree(n)? printf("True"): printf("False");
     return 0;
 }
+
