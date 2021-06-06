@@ -1,4 +1,5 @@
 //first non-repeated character in string
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
