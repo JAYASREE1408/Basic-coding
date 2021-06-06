@@ -1,4 +1,5 @@
 //First and last occurance
+
 #include<stdio.h>
 void main()
 { 
